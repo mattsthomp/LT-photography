@@ -15,7 +15,7 @@ body {
 }
 
 .info-body {
-    background-image: url("images/white_paperboard.png");
+    background-image: url("../images/white_paperboard.png");
 }
 
 #main {
@@ -111,7 +111,7 @@ header {
 #gallery-menu .long-tab {
     width: 200px;
     opacity: 0.9;
-    background-image: url("images/flower.png");
+    background-image: url("../images/flower.png");
     padding-left: 33px;
 }
 
@@ -367,7 +367,7 @@ input:focus, textarea:focus {
     width: 22px;
     height: 22px;
     margin: 3px 2px 0 0;
-    background-image: url('images/icons.png');
+    background-image: url('../images/icons.png');
     display: inline-block;
 }
 

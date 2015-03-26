@@ -1,6 +1,6 @@
 <?php 
 $errors = '';
-$myemail = 'matthewthompson72@comcast.net';
+$myemail = 'leanethompsonphotography@gmail.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
@@ -12,7 +12,7 @@ $name = $_POST['name'];
 $email_address = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
-$from = 'test@mattandcassandra.com';
+$from = 'form@leanethompsonphotography.com';
 
 if (!preg_match(
 "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
