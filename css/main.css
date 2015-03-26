@@ -1,0 +1,716 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Alegreya Sans";
+    max-width: 1240px;
+    margin: auto;
+}
+
+.info-body {
+    background-image: url("images/white_paperboard.png");
+}
+
+#main {
+    position: relative;
+}
+
+header {
+    background-color: white;
+    height: 74px;
+    padding-top: 1px;
+    margin: 0;
+}
+
+#logo {
+    width: 280px;
+    margin: 20px 0 15px 50px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+/******************************** right side gallery menu ***************************************/
+
+.gallerycover {
+    opacity: 0;
+}
+
+.gallerycover {
+    transition-property: opacity;
+    transition-duration: 500ms;
+}
+
+#kids {
+    opacity: 1;
+}
+
+#main .gallerycover {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+
+#gallery-menu {
+    position: absolute;
+    right: 0;
+    top: 55px;
+    z-index: 10;
+    letter-spacing: 1.4px;
+    font-size: 15px;
+    color: #626262;
+    font-family: "Alegreya Sans SC";
+}
+
+#gallery-menu a {
+    width: 90%;
+    display: block;
+}
+
+#gallery-menu a:link {
+    color: #626262;
+}
+
+#gallery-menu a:visited {
+    color: #626262;
+}
+
+#gallery-menu div {
+    display: block;
+    float: right;
+    clear: right;
+    width: 170px;
+    background-color: white;
+    margin: 0 0 18px 0;
+    padding: 10px 8px 8px 13px;
+    opacity: 0.7;
+    transition-property: width;
+    transition-duration: 400ms;
+    background-repeat: no-repeat;
+    background-position: 6px 10px;
+}
+
+#gallery-menu .short-tab {
+    width: 170px;
+    opacity: 0.7;
+    background-image: none;
+    padding-left: 13px;
+}
+
+#gallery-menu .long-tab {
+    width: 200px;
+    opacity: 0.9;
+    background-image: url("images/flower.png");
+    padding-left: 33px;
+}
+
+/************************************** top navigation menu ****************************************/
+
+#nav-menu {
+    position: absolute;
+    top: -45px;
+    right: 50px;
+    list-style: none;
+    letter-spacing: .6px;
+    font-size: 14px;
+    color: #b6b6b6;
+    font-family: "Alegreya Sans SC";
+}
+
+#nav-menu li {
+    display: inline-block;
+    border-right: 1px solid #49d6c6;
+    padding-right: 5px;
+    padding-left: 1px;
+}
+
+#nav-menu li a:link {
+    color: #b6b6b6;
+}
+
+#nav-menu li a:visited {
+    color: #b6b6b6;
+}
+
+#nav-menu li a:hover {
+    color: #49d6c6;
+}
+
+#nav-menu #last {
+    border-right: none;
+}
+
+#nav-menu li .current {
+    color: #49d6c6;
+    font-weight: bold;
+}
+
+#main #nav-menu li .current {
+    color: #49d6c6;
+}
+
+/************************************************* info page styles *************************************/
+
+#portrait {
+    width: 28%;
+    padding: 60px 2% 0 5%;
+    height: 518px;
+    background-color: #f7f7f7;
+    float: left;
+}
+
+#portrait img {
+    float: right;
+}
+
+#about {
+    
+    width: 59%;
+    padding: 60px 2% 0 4%;
+    height: 518px;
+    background-color: #f7f7f7;
+    float: left;
+}
+
+#quote {
+    position: relative;
+}
+
+#quote span {
+    display: none;
+}
+
+#quote #left {
+    position: absolute;
+    left: -18px;
+    top: 2px;
+}
+
+#quote #right {
+    position: absolute;
+    left: 512px;
+    top: 44px;
+}
+
+
+#quote p {
+    font-size: 35px;
+    font-style: italic;
+    color: #626262;
+    line-height: 39px;
+}
+
+#quote #author {
+    font-size: 14px;
+    font-family: "Alegreya Sans SC";
+    font-style: italic;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+#blurb {
+    font-family: "Alegreya Sans";
+    font-size: 15px;
+    color: #626262;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    padding-top: 22px;
+    padding-right: 8%;
+    
+}
+
+#sig {
+    padding-left: 25%;
+}
+
+#testimonials {
+    width: 25%;
+    padding: 40px 5% 0 5%;
+    text-align: center;
+    float: left;
+    height: 1600px;
+    position: relative;
+    overflow: hidden;
+    color: #626262;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 30px;
+    background-color: #fff;
+}
+
+
+#testimonials .testimonial-signature {
+    font-family: "Alegreya Sans SC";
+    font-style: normal;
+    color: #a7a7a7;
+}
+
+#testimonials-background {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+}
+
+.testimonial-decoration {
+    margin: 30px 0 24px 0;
+}
+
+#contact {
+    width: 52%;
+    padding: 0 8% 0 5%;
+    float: left;
+    background-color: #49d5c5;
+    height: 840px;
+}
+
+#contact p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 35px 0 35px 0;
+    letter-spacing: 1.2px;
+}
+
+#contact h1 {
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#contact input {
+    width: 95%;
+    margin-bottom: 18px;
+    height: 32px;
+    border: none;
+    padding-left: 1%;
+}
+
+#contact textarea {
+    width: 95%;
+    border: none;
+    padding-top: 6px;
+    padding-left: 1%;
+}
+
+input:focus, textarea:focus {
+    outline-color: #209c8e;
+}
+
+::-webkit-input-placeholder {
+    font-family: "Alegreya Sans";
+    color: #c8c8c8;
+    font-style: italic;
+    font-size: 16px;
+}
+
+::-moz-placeholder {
+    font-family: "Alegreya Sans";
+    color: #c8c8c8;
+    font-style: italic;
+    font-size: 16px;    
+}
+
+:-ms-input-placeholder {
+    font-family: "Alegreya Sans";
+    color: #c8c8c8;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#contact input[type=submit] {
+    background-color: #49d5c5;
+    float: right;
+    width: 130px;
+    font-family: "Alegreya Sans SC";
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    margin-top: 5px;
+    padding-right: 5px;
+    background: url(images/send.png) no-repeat 95px 7px;
+}
+
+#contact h3 {
+    color: #209c8e;
+    font-family: "Alegreya Sans SC";
+    font-size: 20px;
+    font-weight: normal;
+    margin: 25px 0 2px 0;
+    padding: 0;
+}
+
+#contact .contact-info {
+    color: #fff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+#contact .social {
+    width: 22px;
+    height: 22px;
+    margin: 3px 2px 0 0;
+    background-image: url('images/icons.png');
+    display: inline-block;
+}
+
+#contact #fb {
+    background-position: -61px -2px;
+}
+
+#contact #pin {
+    background-position: -86px -2px;
+}
+
+#pricing {
+    padding-left: 4%;
+    padding-right: 8%;
+    width: 53%;
+    float: left;
+    background-color: #5d5d5d;
+    height: 800px;
+    color: #fff;
+}
+
+#pricing h1 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 36px;
+    padding-top: 48px;
+    padding-bottom: 18px;
+}
+
+#pricing p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    padding-bottom: 20px;
+}
+
+#pricing .pricing-button {
+    width: 31.8%;
+    display: inline-block;
+    background: #6d6d6d;
+    margin-right: 0.5%;
+    padding: 5px 0;
+    border: 1px solid #6d6d6d;
+}
+
+#pricing .selected {
+    background: #5d5d5d;
+    border: 1px solid #48d3c3;
+}
+
+#pricing .pricing-button p {
+    font-family: "Alegreya Sans SC";
+    font-size: 20px;
+    font-weight: bold;
+    color: #a1a1a1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+#pricing .selected p {
+    color: #fff;
+}
+
+#infobox-container {
+    position: relative;
+}
+
+.infobox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    padding-top: 10px;
+}
+
+.infobox h4 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    padding-top: 18px;
+}
+
+.infobox ul {
+    margin: 12px 0 12px 0;
+    list-style: none;
+}
+
+.infobox ul li:before{
+    content:"• ";
+    font-size: 14px;
+}
+
+.infobox li {
+    line-height: 32px;
+    letter-spacing: 0.8px;
+}
+
+#pricing .infobox p {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 16px;
+    padding: 0;
+}
+
+#pricing .infobox p span {
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+#portraits-info {
+    opacity: 1;
+}
+
+#footer {
+    width: 100%;
+    float: left;
+    background-color: #383838;
+    height: 100px;
+}
+
+#footer p {
+    font-family: "Alegreya Sans SC";
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    margin: 50px 0 0 65px;
+    letter-spacing: 0.8px;
+    color: #e5e5e5;
+}
+
+#footer-menu {
+    float: right;
+    list-style: none;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    color: #e5e5e5;
+    font-family: "Alegreya Sans SC";
+    margin: 50px 70px 0 0;
+}
+
+#footer-menu li {
+    display: inline-block;
+    border-right: 1px solid #e5e5e5;
+    padding-right: 5px;
+    padding-left: 3px;
+}
+
+#footer-menu li a:link {
+    color: #e5e5e5;
+}
+
+#footer-menu li a:visited {
+    color: #e5e5e5;
+}
+
+#footer-menu li a:hover {
+    color: #e5e5e5;
+}
+
+#footer-menu #last {
+    border-right: none;
+}
+
+/************************************ gallery pages *************************************************/
+
+#gallery {
+    margin: 0 2px 0 2px;
+}
+
+@media only screen 
+and (min-width : 1204px){
+
+#gallery {
+    margin-left: calc(50% - 600px);
+}
+}
+
+/******************************** mobile / small window styles ***************************************/
+
+
+@media only screen 
+and (max-width: 770px){
+
+header {
+    height: 120px;
+    padding-top: 20px;
+}
+
+#logo {
+    width: 60%;
+    min-width: 260px;
+    margin: auto;
+}
+
+#main .gallerycover {
+    margin-left: -30%;
+    margin-right: 0;
+    width: 130%;
+}
+
+#gallery-menu div {
+    width: 120px;
+    margin-bottom: 14px;
+}
+
+#gallery-menu .short-tab {
+    width: 120px;
+}
+
+#gallery-menu .long-tab {
+    width: 130px;
+}
+
+
+#nav-menu {
+    font-size: 16px;
+    right: calc(50% - 145px);
+    top: -40px;
+    float: left;
+    margin: auto;
+}
+
+#portrait {
+    padding 20px 0 0 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    float: none;
+}
+
+#portrait img {
+    float: none;
+    margin-left: calc(50% - 140px);
+}
+
+#about {    
+    width: 94%;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+}
+
+#quote br {
+    display: none;
+}
+
+#quote span {
+    display: inline;
+}
+
+#quote #left {
+    display: none;
+}
+
+#quote #right {
+    display: none;
+}
+
+#quote p {
+    font-size: 30px;
+}
+
+#sig {
+    display: none;
+}
+
+#testimonials {
+    width: 90%;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+#testimonials-background {
+    visibility: hidden;
+}
+
+.testimonial-decoration {
+    margin: 20px 0 15px 0;
+}
+
+#contact {
+    width: 87%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#pricing {
+    width: 88%;
+    height: 840px;
+}
+
+#pricing .pricing-button {
+    width: 30%;
+}
+
+#pricing .pricing-button p {
+    font-size: 15px;
+}
+
+#footer {
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#footer-menu {
+    float: none;
+    padding: 20px 0 0 5%;
+    margin: 0;
+}
+
+#footer p {
+    padding: 20px 0 10px 5%;
+    margin: 0;
+}
+}
+
+@media only screen
+and (max-aspect-ratio: 7/5) {
+
+#main .gallerycover {
+    margin-left: -15%;
+    margin-right: 0;
+    width: 115%;
+}
+}
+
+@media only screen
+and (max-aspect-ratio: 6/5) {
+
+#main .gallerycover {
+    margin-left: -30%;
+    margin-right: 0;
+    width: 130%;
+}
+}

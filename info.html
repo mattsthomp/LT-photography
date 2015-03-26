@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700,400italic,700italic|Alegreya+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>About Leane Thompson Photography</title>
+</head>
+
+<body class="info-body">
+
+<header>
+    <div id="logo">
+        <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+</header>
+<div id="main">
+    <ul id="nav-menu">
+        <li><a href="index.html">Galleries</a></li>
+        <li><a class="current" name="about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li id="last"><a href="#pricing">Pricing</a></li>
+    </ul>
+    <div id="portrait">
+        <img src="images/leane_portrait.png">
+    </div>
+    <div id="about">
+        <div id="quote">
+            <img id="left" src="images/left-quote.png">
+            <img id="right" src="images/right-quote.png">
+            <p><span>"</span>For me, photography is to place head, <br>heart and eye along the same line of sight.<span>"</span></p>
+            <p id="author">-henri cartier-bresson</p>
+        </div>
+        <p id="blurb">Photography for me is a form of artistic expression. Through my photos I can express my love and admiration for the family dynamic; those special moments that really show the bond between siblings, parents and their children and the love shared within the family. Capturing these special moments in time is my ultimate goal and the reason I chose to begin my business so I can share my photos with others.</p>
+        <img id="sig" src="images/signature.png">
+        
+    </div>
+    <div id="testimonials">
+        <p>"We had so much fun taking my daughter’s senior pictures with Leane!  She captured the personality of my daughter and has an eye for creative back drops! The pictures are beautiful!! Thank you so much!" </p>
+        <p class="testimonial-signature">-jodi mackey</p>
+        <img class="testimonial-decoration" src="images/green-flower.png">
+        <p>“I couldn’t have asked for a better photographer for our engagement photos. Leane is incredibly talented and truly captures the spirit of the people she photographs."</p>
+        <p class="testimonial-signature">-cassandra stemler</p>
+        <img class="testimonial-decoration" src="images/green-flower.png">
+        <p>"Our experience working with Leane was nothing short of perfect! She was patient, scouted the perfect location to capture the moments of our family and was able to coach us on how to make the most out of each shot she took. The candids she took of us contain so much personality and the artistic quality is something our family will cherish forever.  We were truly amazed with our experience with Leane from start to finish!"</p>
+        <p class="testimonial-signature">-jennifer & bryan boe</p>
+        <img id="testimonials-background" src="images/family.png">
+    </div>
+    <div id="contact">
+        <a name="contact"></a>
+        <p>Currently booking shoots in and around the Seattle, Washington and Portland, Oregon metro areas.</p>
+        <h1>Contact Me</h1>
+        <div id="contact-area">
+	    <form method="POST" name="contactform" action="contact-form-handler.php">
+		<input type="text" name="name" id="Name" placeholder="Name"/>
+		<input type="text" name="email" id="Email"  placeholder="Email"/>
+		<input type="text" name="subject" id="Subject"  placeholder="Subject"/>
+		<textarea name="message" rows="14" cols="20" id="Message"  placeholder="Message"></textarea>
+		<input type="submit" name="submit" value="send" class="submit-button" />
+	    </form>
+            <br>
+            <br>
+            <h3>email</h3>
+            <p class="contact-info">leanethompsonphotography@gmail.com</p>
+            <h3>phone</h3>
+            <p class="contact-info">+1 503 970 4656</p>
+            <h3>social</h3>
+            <a class="social" id="fb" href="http://www.facebook.com"></a>
+            <a class="social" id="pin" href="http://www.pinterest.com"></a>
+        </div>
+    </div>
+    <div id="pricing">
+        <a name="pricing"></a>
+        <h1>Pricing</h1>
+        <p>Please click on a category below to learn more.</p>
+        <div id="portraits-button" onclick='pricing("portraits-button","portraits-info")'; class="pricing-button selected"><p>portraits</p></div>
+        <div id="newborns-button" onclick='pricing("newborns-button","newborns-info")'; class="pricing-button"><p>newborns</p></div>
+        <div id="seniors-button" onclick='pricing("seniors-button","seniors-info")'; class="pricing-button"><p>seniors</p></div>
+        <div id="infobox-container">
+            <div id="portraits-info" class="infobox">
+                <h4>Portrait Session</h4>
+                <p>(Family, children, couples, engagement, maternity)</p>
+                <h4>$250</h4>
+                <ul>
+                    <li>Up to 5 people ($25 extra for each additional person up to 10)</li>
+                    <li>1 to 1.5 hours shooting time at a location of your choice</li>
+                    <li>Wardrobe change (optional)</li>
+                    <li>3 of your favorite hi-res digital images via download </li>
+                    <li>Password protected online gallery for viewing proofs and ordering prints</li>
+                    <li>Custom editing of photos</li>
+                </ul>
+                <p><span>Option to purchase all edited hi-res digitals on USB with print release. Please contact me for pricing. Thank you!</span></p>
+            </div>
+            <div id="newborns-info" class="infobox">
+                <h4>Newborn Session</h4>
+                <h4>$350</h4>
+                <br>
+                <ul>
+                    <li>Up to 3 hours of shooting time</li>
+                    <li>5 of your favorite hi-res digital images via download </li>
+                    <li>Password protected online gallery for viewing proofs and ordering prints</li>
+                    <li>Custom editing of photos</li>
+                </ul>
+                <p><span>Option to purchase all edited hi-res digitals on USB with print release. Please contact me for pricing. Thank you!</span></p>
+            </div>
+            <div id="seniors-info" class="infobox">
+                <h4>Senior Session</h4>
+                <h4>$350</h4>
+                <br>
+                <ul>
+                    <li>2 hours shooting time</li>
+                    <li>Up to 4 wardrobe changes</li>
+                    <li>5 of your favorite hi-res digital images via download </li>
+                    <li>Password protected online gallery for viewing proofs and ordering prints</li>
+                    <li>Custom editing of photos</li>
+                </ul>
+                <p><span>Option to purchase all edited hi-res digitals on USB with print release. Please contact me for pricing. Thank you!</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        
+        <ul id="footer-menu">
+            <li><a href="index.html">Galleries</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li id="last"><a href="#pricing">Pricing</a></li>
+        </ul>
+        <p>&copy 2014, Leane Thompson Photography</p>
+    </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scripts/info.js"></script>
+</body>
+
+</html>
